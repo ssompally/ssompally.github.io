@@ -6,11 +6,13 @@
 }
 body {
   margin: 0;
+  padding: 0;
   width: 100vw;
+  height: 100%;
+  background: #111111;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  background: #111111;
   overflow-x: hidden;
   align-items: center;
 }
@@ -152,7 +154,7 @@ body {
   filter: blur(175px);
   position: absolute;
   left: -4rem;
-  top: 150rem;
+  top: 149rem;
 }
 
 .about {
@@ -236,6 +238,8 @@ body {
   align-items: flex-start;
   gap: 4rem;
   align-self: stretch;
+  max-width: 80%;
+  margin: auto;
 }
 
 .experience-and-skills h2 {
@@ -483,7 +487,8 @@ body {
 
 .contact-me {
   display: flex;
-  width: 73rem;
+  width: 80%;
+  max-width: 80%;
   padding: 5.1875rem 3rem 12rem 3rem;
   justify-content: space-between;
   align-items: center;
@@ -514,7 +519,6 @@ body {
 
 .contact-me-details h1 {
   display: flex;
-  width: 23.9375rem;
   flex-direction: column;
   flex-shrink: 0;
   color: var(--white, #fff);
@@ -561,9 +565,10 @@ body {
   gap: 1.5rem;
 }
 
-footer {
+.footer {
   display: flex;
-  width: 78rem;
+  width: 80%;
+  max-width: 80%;
   padding: 1rem 0.625rem;
   justify-content: center;
   align-items: center;
@@ -573,7 +578,7 @@ footer {
   margin-bottom: -2rem;
 }
 
-footer p {
+.footer p {
   font-size: 1.1rem;
   font-weight: 700;
 }
