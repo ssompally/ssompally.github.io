@@ -9,7 +9,7 @@ html {
   margin: 0;
 }
 body {
-  margin: 1.5rem auto 3rem auto;
+  margin: 1.5rem auto 0 auto;
   padding: 0;
   width: 100%;
   max-width: 84vw;
@@ -19,7 +19,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
 
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
@@ -202,6 +201,7 @@ body {
   align-items: center;
   gap: 2rem;
   max-width: 65vw;
+  margin-bottom: 6rem;
 }
 
 .introduction-content {
@@ -266,6 +266,7 @@ body {
   width: 100%;
   height: fit-content;
   gap: 2rem;
+  margin-bottom: 6rem;
 }
 
 .experience-and-skills h2 {
@@ -352,6 +353,7 @@ body {
   flex-shrink: 0;
   /* margin-bottom: 6rem; */
   z-index: 99;
+  margin-bottom: 6rem;
 }
 
 .featured-projects-title {
@@ -519,7 +521,7 @@ body {
   z-index: 99;
   gap: 1.5rem;
 
-  margin-bottom: -3rem;
+  margin-bottom: 3rem;
 
   position: relative;
   padding: 1rem 3rem 5rem 3rem;
@@ -654,7 +656,7 @@ textarea {
   gap: 0.625rem;
   border-radius: 1.25rem;
   background: var(--background, rgba(253, 251, 251, 0.05));
-  /* margin-bottom: 3rem; */
+  margin-bottom: 3rem;
 }
 
 .footer p {
