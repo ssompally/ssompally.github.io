@@ -227,7 +227,7 @@ body {
 }
 
 .details p {
-  color: var(--paragraph, #b6b3b3);
+  color: #b6b3b3;
   text-align: center;
   font-size: 1.25rem;
   font-weight: 400;
@@ -279,7 +279,7 @@ body {
 }
 
 .experience-and-skills p {
-  color: var(--paragraph, #b6b3b3);
+  color: #b6b3b3;
   font-size: 1rem;
   margin: 0.3rem 0.5rem 0.5rem 0rem;
 }
@@ -292,7 +292,7 @@ body {
   align-items: flex-start;
   gap: 2.5rem;
   border-radius: 2rem;
-  background: var(--background, rgba(253, 251, 251, 0.05));
+  background: rgba(253, 251, 251, 0.05);
 }
 
 .experience-and-skills h3 {
@@ -310,7 +310,7 @@ body {
   align-items: center;
   gap: 0.625rem;
   border-radius: 0.3125rem;
-  background: var(--primary, #c21925);
+  background: #c21925;
   font-size: 1.75rem;
   text-align: center;
 }
@@ -331,12 +331,12 @@ body {
   align-items: flex-start;
   gap: 2.5rem;
   border-radius: 2rem;
-  background: var(--background, rgba(253, 251, 251, 0.05));
+  background: rgba(253, 251, 251, 0.05);
 }
 
 .skills-header {
   border-radius: 0.3125rem;
-  background: var(--primary, #c21925);
+  background: #c21925;
   display: flex;
   padding: 0.01rem 1.5625rem;
   justify-content: center;
@@ -369,7 +369,7 @@ body {
 }
 
 .featured-projects-title-content p {
-  color: var(--primary, #c21925);
+  color: #c21925;
   font-size: 1.0625rem;
   font-weight: 600;
 }
@@ -406,7 +406,7 @@ body {
 }
 
 .project-card p {
-  color: var(--paragraph, #b6b3b3);
+  color: #b6b3b3;
 }
 
 .project-card h2 a img {
@@ -436,7 +436,7 @@ body {
       rgba(0, 208, 255, 0.25) 0%,
       rgba(0, 208, 255, 0.25) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card.movie-collabs {
@@ -445,7 +445,7 @@ body {
       rgba(0, 118, 231, 0.25) 0%,
       rgba(0, 118, 231, 0.25) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card.matlab-fitness-tracker {
@@ -454,7 +454,7 @@ body {
       rgba(227, 94, 12, 0.25) 0%,
       rgba(227, 94, 12, 0.25) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card.easy-cycle {
@@ -463,7 +463,7 @@ body {
       rgba(58, 181, 74, 0.25) 0%,
       rgba(58, 181, 74, 0.25) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card.farm-fresh {
@@ -472,7 +472,7 @@ body {
       rgba(238, 146, 81, 0.25) 0%,
       rgba(238, 146, 81, 0.25) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card.personal-website {
@@ -481,7 +481,7 @@ body {
       rgba(194, 25, 37, 0.3) 0%,
       rgba(194, 25, 37, 0.3) 100%
     ),
-    var(--background, rgba(253, 251, 251, 0.05));
+    rgba(253, 251, 251, 0.05);
 }
 
 .project-card a {
@@ -498,7 +498,7 @@ body {
   gap: 0.5rem;
   flex-shrink: 0;
   border-radius: 2.875rem;
-  border: 1px solid var(--white, #fff);
+  border: 1px solid #fff;
 }
 
 .github-container p {
@@ -516,7 +516,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 2rem;
-  background: var(--background, rgba(253, 251, 251, 0.05));
+  background: rgba(253, 251, 251, 0.05);
   z-index: 99;
   gap: 1.5rem;
 
@@ -555,7 +555,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  color: var(--white, #fff);
+  color: #fff;
   font-size: 3.5625rem;
   font-weight: 600;
   line-height: 113.023%;
@@ -584,7 +584,7 @@ body {
   align-items: center;
   gap: 0.625rem;
   border-radius: 6.25rem;
-  border: 1px solid var(--white, #fff);
+  border: 1px solid #fff;
 }
 
 .contact-me-details-info-row .frame img {
@@ -616,7 +616,7 @@ body {
   resize: vertical;
   color: white;
   border-radius: 0.625rem;
-  border: 1px solid var(--paragraph, #b6b3b3);
+  border: 1px solid #b6b3b3;
   background: none;
 }
 
@@ -625,12 +625,12 @@ body {
 }
 
 .contact-me-form input[type="submit"] {
-  background: var(--primary, #c21925);
+  background: #c21925;
   border-radius: 0.625rem;
   width: 30%;
   min-width: fit-content;
   color: white;
-  padding: 0.75rem;
+  padding: 1rem;
   border: none;
   cursor: pointer;
   font-size: 1rem;
@@ -639,7 +639,7 @@ body {
 }
 
 .contact-me-form input[type="submit"]:hover {
-  background-color: #f10c18;
+  background-color: #dc1923;
 }
 
 input:focus,
@@ -655,7 +655,7 @@ textarea {
   align-items: center;
   gap: 0.625rem;
   border-radius: 1.25rem;
-  background: var(--background, rgba(253, 251, 251, 0.05));
+  background: rgba(253, 251, 251, 0.05);
   margin-bottom: 3rem;
 }
 
@@ -700,9 +700,9 @@ textarea {
   }
 
   .red-introduction-top-middle {
-    /* left: -1rem;
-    top: -1rem; */
-    display: none;
+    left: -1rem;
+    top: -1rem;
+    /* display: none; */
   }
 
   .red-introduction-bottom-left {
@@ -714,9 +714,9 @@ textarea {
   }
 
   .red-experience {
-    /* left: -2rem;
-    top: 45rem; */
-    display: none;
+    left: -2rem;
+    top: 45rem;
+    /* display: none; */
   }
 
   .red-skills {
@@ -724,15 +724,15 @@ textarea {
   }
 
   .red-featured-projects {
-    /* left: -2rem;
-    top: 90rem; */
-    display: none;
+    left: -2rem;
+    top: 90rem;
+    /* display: none; */
   }
 
   .red-contact-me {
-    /* left: -2rem;
-    top: 210rem; */
-    display: none;
+    left: -2rem;
+    top: 210rem;
+    /* display: none; */
   }
 
   body {
