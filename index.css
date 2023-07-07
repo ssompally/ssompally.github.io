@@ -628,6 +628,7 @@ body {
   background: var(--primary, #c21925);
   border-radius: 0.625rem;
   width: 30%;
+  min-width: fit-content;
   color: white;
   padding: 0.75rem;
   border: none;
