@@ -700,9 +700,9 @@ textarea {
   }
 
   .red-introduction-top-middle {
-    left: -1rem;
-    top: -1rem;
-    /* display: none; */
+    /* left: -1rem;
+    top: -1rem; */
+    display: none;
   }
 
   .red-introduction-bottom-left {
@@ -714,9 +714,9 @@ textarea {
   }
 
   .red-experience {
-    left: -2rem;
-    top: 45rem;
-    /* display: none; */
+    /* left: -2rem;
+    top: 45rem; */
+    display: none;
   }
 
   .red-skills {
@@ -724,15 +724,15 @@ textarea {
   }
 
   .red-featured-projects {
-    left: -2rem;
-    top: 90rem;
-    /* display: none; */
+    /* left: -2rem;
+    top: 90rem; */
+    display: none;
   }
 
   .red-contact-me {
-    left: -2rem;
-    top: 210rem;
-    /* display: none; */
+    /* left: -2rem;
+    top: 210rem; */
+    display: none;
   }
 
   body {
@@ -847,5 +847,6 @@ textarea {
 
   .contact-me-form input[type="submit"] {
     width: 100%;
+    padding: 1rem;
   }
 }
