@@ -737,9 +737,15 @@ textarea {
 
   body {
     margin: 4rem auto 0 auto;
+    padding: 0;
     width: 100%;
-    max-width: 84%;
-    overflow-x: hidden;
+    max-width: 88vw;
+    height: 100%;
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
