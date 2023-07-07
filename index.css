@@ -665,7 +665,7 @@ textarea {
 }
 
 /* Smaller window handling */
-@media all and (max-width: 900px) {
+@media all and (max-width: 950px) {
   .featured-projects-all-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -690,7 +690,7 @@ textarea {
 }
 
 /* Mobile handling */
-@media all and (max-width: 720px) {
+@media all and (max-width: 800px) {
   .red-introduction-top-right {
     display: none;
   }
