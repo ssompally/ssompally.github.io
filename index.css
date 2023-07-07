@@ -6,9 +6,10 @@
 }
 html {
   overflow-x: hidden;
+  margin: 0;
 }
 body {
-  margin: 1.5rem auto 0 auto;
+  margin: 1.5rem auto 3rem auto;
   padding: 0;
   width: 100%;
   max-width: 84vw;
