@@ -652,7 +652,7 @@ textarea {
   gap: 0.625rem;
   border-radius: 1.25rem;
   background: var(--background, rgba(253, 251, 251, 0.05));
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .footer p {
