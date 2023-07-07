@@ -72,7 +72,7 @@ body {
   filter: blur(175px);
   position: absolute;
   top: 1%;
-  left: 28%;
+  left: 30%;
   overflow: hidden;
 }
 
@@ -665,27 +665,29 @@ textarea {
 }
 
 /* Smaller window handling */
+@media all and (max-width: 1180px) {
+  .red-introduction-top-middle {
+    top: 1%;
+    left: 25%;
+  }
+
+  .red-featured-projects {
+    top: 150%;
+    left: 25%;
+  }
+
+  .red-contact-me {
+    left: 0%;
+    top: 300%;
+  }
+}
+
 @media all and (max-width: 950px) {
   .featured-projects-all-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     gap: 7vh 2.2vw;
-  }
-
-  .red-introduction-top-middle {
-    top: 1%;
-    left: 18%;
-  }
-
-  .red-featured-projects {
-    top: 150%;
-    left: 15%;
-  }
-
-  .red-contact-me {
-    left: 0%;
-    top: 300%;
   }
 }
 
