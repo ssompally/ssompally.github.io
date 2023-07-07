@@ -689,8 +689,7 @@ textarea {
   }
 }
 
-/* Mobile handling */
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
   .red-introduction-top-right {
     display: none;
   }
@@ -734,7 +733,10 @@ textarea {
     top: 210rem; */
     display: none;
   }
+}
 
+/* Mobile handling */
+@media all and (max-width: 800px) {
   body {
     margin: 4rem auto 0 auto;
     padding: 0;
