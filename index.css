@@ -672,8 +672,18 @@ textarea {
   }
 
   .red-featured-projects {
-    top: 150vh;
-    left: 27vw;
+    top: 178vh;
+    left: 29vw;
+  }
+
+  .red-experience {
+    top: 145vh;
+    left: -5vw;
+  }
+
+  .red-skills {
+    top: 140vh;
+    left: 70vw;
   }
 }
 
