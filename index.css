@@ -122,7 +122,7 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110%;
+  top: 140%;
   left: -5%;
   overflow: hidden;
 }
@@ -141,7 +141,7 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110%;
+  top: 140%;
   left: 70%;
   overflow: hidden;
 }
@@ -159,7 +159,7 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 133%;
+  top: 176%;
   left: 29%;
   overflow: hidden;
 }
@@ -664,6 +664,28 @@ textarea {
   font-weight: 700;
 }
 
+/* Smaller width window handling */
+@media all and (max-width: 1180px) {
+  .red-introduction-top-middle {
+    top: 1%;
+    left: 25%;
+  }
+
+  .red-featured-projects {
+    top: 150%;
+    left: 25%;
+  }
+
+  .red-contact-me {
+    left: 0%;
+    top: 300%;
+  }
+}
+
+/* Larger height window handling */
+@media all and (min-height: 830px) {
+}
+
 @media all and (max-width: 950px) {
   .featured-projects-all-cards {
     display: grid;
@@ -674,47 +696,15 @@ textarea {
 }
 
 @media all and (max-width: 900px) {
-  .red-introduction-top-right {
-    display: none;
-  }
-
-  .red-introduction-top-left {
-    display: none;
-  }
-
-  .red-introduction-top-middle {
-    /* left: -1rem;
-    top: -1rem; */
-    display: none;
-  }
-
-  .red-introduction-bottom-left {
-    display: none;
-  }
-
-  .red-introduction-bottom-right {
-    display: none;
-  }
-
-  .red-experience {
-    /* left: -2rem;
-    top: 45rem; */
-    display: none;
-  }
-
-  .red-skills {
-    display: none;
-  }
-
-  .red-featured-projects {
-    /* left: -2rem;
-    top: 90rem; */
-    display: none;
-  }
-
+  .red-introduction-top-right,
+  .red-introduction-top-left,
+  .red-introduction-top-middle,
+  .red-introduction-bottom-left,
+  .red-introduction-bottom-right,
+  .red-experience,
+  .red-skills,
+  .red-featured-projects,
   .red-contact-me {
-    /* left: -2rem;
-    top: 210rem; */
     display: none;
   }
 }
