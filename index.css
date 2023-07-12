@@ -25,7 +25,7 @@ body {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
-.red-introduction-top-left {
+.about .red-introduction-top-left {
   margin: 0;
   width: 3.69938rem;
   height: 3.69919rem;
@@ -36,12 +36,12 @@ body {
   background: linear-gradient(289deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(7.0991621017456055px);
   position: absolute;
-  top: 12vh;
-  left: 10.5vw;
+  top: 12%;
+  left: 10.5%;
   overflow: hidden;
 }
 
-.red-introduction-top-right {
+.about .red-introduction-top-right {
   width: 7.64525rem;
   height: 7.577rem;
   transform: rotate(14.035deg);
@@ -51,13 +51,13 @@ body {
   background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(16.38268280029297px);
   position: absolute;
-  top: 9vh;
-  left: 84vw;
+  top: 9%;
+  left: 84%;
   margin: 0;
   overflow: hidden;
 }
 
-.red-introduction-top-middle {
+.about .red-introduction-top-middle {
   margin: 0;
   width: 33.57269rem;
   height: 33.57269rem;
@@ -71,12 +71,12 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 1vh;
-  left: 34vw;
+  top: 1%;
+  left: 34%;
   overflow: hidden;
 }
 
-.red-introduction-bottom-left {
+.about .red-introduction-bottom-left {
   margin: 0;
   width: 7.64525rem;
   height: 7.577rem;
@@ -87,12 +87,12 @@ body {
   background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(16.38268280029297px);
   position: absolute;
-  top: 71vh;
-  left: 8.2vw;
+  top: 71%;
+  left: 8.2%;
   overflow: hidden;
 }
 
-.red-introduction-bottom-right {
+.about .red-introduction-bottom-right {
   margin: 0;
   width: 3.84106rem;
   height: 3.80681rem;
@@ -103,12 +103,12 @@ body {
   background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(16.38268280029297px);
   position: absolute;
-  top: 76vh;
-  left: 86vw;
+  top: 76%;
+  left: 86%;
   overflow: hidden;
 }
 
-.red-experience {
+.experience .red-experience {
   margin: 0;
   width: 31.29675rem;
   height: 31.29675rem;
@@ -122,12 +122,12 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110vh;
-  left: -5vw;
+  top: 110%;
+  left: -5%;
   overflow: hidden;
 }
 
-.red-skills {
+.skills .red-skills {
   margin: 0;
   width: 31.39975rem;
   height: 31.39975rem;
@@ -141,12 +141,12 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110vh;
-  left: 70vw;
+  top: 110%;
+  left: 70%;
   overflow: hidden;
 }
 
-.red-featured-projects {
+.featured-projects .red-featured-projects {
   margin: 0;
   width: 37.2335rem;
   height: 37.2335rem;
@@ -159,12 +159,12 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 146vh;
-  left: 31vw;
+  top: 133%;
+  left: 29%;
   overflow: hidden;
 }
 
-.red-contact-me {
+.contact-me .red-contact-me {
   margin: 0;
   width: 30.79656rem;
   height: 30.79656rem;
@@ -177,8 +177,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  left: 0vw;
-  top: 10vh;
+  left: 0%;
+  top: 10%;
   overflow: hidden;
 }
 
@@ -662,46 +662,6 @@ textarea {
 .footer p {
   font-size: 1.05rem;
   font-weight: 700;
-}
-
-/* Smaller window handling */
-@media all and (max-width: 1600px) {
-  .red-introduction-top-middle {
-    top: 1vh;
-    left: 31vw;
-  }
-
-  .red-featured-projects {
-    top: 178vh;
-    left: 29vw;
-  }
-
-  .red-experience {
-    top: 145vh;
-    left: -5vw;
-  }
-
-  .red-skills {
-    top: 140vh;
-    left: 70vw;
-  }
-}
-
-@media all and (max-width: 1180px) {
-  .red-introduction-top-middle {
-    top: 1%;
-    left: 25%;
-  }
-
-  .red-featured-projects {
-    top: 150%;
-    left: 25%;
-  }
-
-  .red-contact-me {
-    left: 0%;
-    top: 300%;
-  }
 }
 
 @media all and (max-width: 950px) {
