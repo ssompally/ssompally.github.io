@@ -681,6 +681,10 @@ textarea {
 
 /* Larger height window handling */
 @media all and (min-height: 830px) {
+  .about .red-introduction-top-middle {
+    left: 35%;
+  }
+
   .experience .red-experience {
     top: 111%;
   }
