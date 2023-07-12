@@ -25,22 +25,6 @@ body {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 
-.red-introduction-top-right {
-  width: 7.64525rem;
-  height: 7.577rem;
-  transform: rotate(14.035deg);
-  flex-shrink: 0;
-  border-radius: 11.94569rem;
-  opacity: 0.44999998807907104;
-  background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
-  filter: blur(16.38268280029297px);
-  position: absolute;
-  top: 9%;
-  left: 84%;
-  margin: 0;
-  overflow: hidden;
-}
-
 .red-introduction-top-left {
   margin: 0;
   width: 3.69938rem;
@@ -52,8 +36,24 @@ body {
   background: linear-gradient(289deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(7.0991621017456055px);
   position: absolute;
-  left: 10.5%;
-  top: 12%;
+  top: 12vh;
+  left: 10.5vw;
+  overflow: hidden;
+}
+
+.red-introduction-top-right {
+  width: 7.64525rem;
+  height: 7.577rem;
+  transform: rotate(14.035deg);
+  flex-shrink: 0;
+  border-radius: 11.94569rem;
+  opacity: 0.44999998807907104;
+  background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
+  filter: blur(16.38268280029297px);
+  position: absolute;
+  top: 9vh;
+  left: 84vw;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -71,8 +71,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 1%;
-  left: 30%;
+  top: 1vh;
+  left: 34vw;
   overflow: hidden;
 }
 
@@ -87,8 +87,8 @@ body {
   background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(16.38268280029297px);
   position: absolute;
-  left: 8.2%;
-  top: 71%;
+  top: 71vh;
+  left: 8.2vw;
   overflow: hidden;
 }
 
@@ -103,8 +103,8 @@ body {
   background: linear-gradient(157deg, #c21925 0%, rgba(194, 25, 37, 0) 100%);
   filter: blur(16.38268280029297px);
   position: absolute;
-  left: 86%;
-  top: 76%;
+  top: 76vh;
+  left: 86vw;
   overflow: hidden;
 }
 
@@ -122,8 +122,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110%;
-  left: -5%;
+  top: 110vh;
+  left: -5vw;
   overflow: hidden;
 }
 
@@ -141,8 +141,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 110%;
-  left: 70%;
+  top: 110vh;
+  left: 70vw;
   overflow: hidden;
 }
 
@@ -159,8 +159,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  top: 150%;
-  left: 27%;
+  top: 146vh;
+  left: 31vw;
   overflow: hidden;
 }
 
@@ -177,8 +177,8 @@ body {
   );
   filter: blur(175px);
   position: absolute;
-  left: 3%;
-  top: 300%;
+  left: 0vw;
+  top: 10vh;
   overflow: hidden;
 }
 
@@ -665,6 +665,18 @@ textarea {
 }
 
 /* Smaller window handling */
+@media all and (max-width: 1600px) {
+  .red-introduction-top-middle {
+    top: 1vh;
+    left: 31vw;
+  }
+
+  .red-featured-projects {
+    top: 150vh;
+    left: 27vw;
+  }
+}
+
 @media all and (max-width: 1180px) {
   .red-introduction-top-middle {
     top: 1%;
