@@ -681,10 +681,6 @@ textarea {
   .featured-projects .red-featured-projects {
     left: 25%;
   }
-
-  .contact-me .red-contact-me {
-    top: 300%;
-  }
 }
 
 /* Larger height window handling */
